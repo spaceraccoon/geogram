@@ -991,8 +991,8 @@ MSBuild version 17.5.0+6f08c67f3 for .NET Framework
   sneupd.c
   sngets.c
   ssaitr.c
-  ssaup2.c
   ssapps.c
+  ssaup2.c
   ssaupd.c
   ssconv.c
   sseigt.c
