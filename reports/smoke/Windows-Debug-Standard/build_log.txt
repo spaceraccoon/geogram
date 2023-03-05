@@ -394,8 +394,8 @@ MSBuild version 17.5.0+6f08c67f3 for .NET Framework
   libf2c_hl_gt.c
   libf2c_hl_le.c
   libf2c_hl_lt.c
-  libf2c_i77vers.c
   libf2c_i_abs.c
+  libf2c_i77vers.c
   libf2c_i_ceiling.c
   libf2c_i_dim.c
   libf2c_i_dnnt.c
@@ -537,8 +537,8 @@ MSBuild version 17.5.0+6f08c67f3 for .NET Framework
   dsdot.c
   dspmv.c
   dspr.c
-  dspr2.c
   dswap.c
+  dspr2.c
   dsymm.c
   dsymv.c
   dsyr.c
