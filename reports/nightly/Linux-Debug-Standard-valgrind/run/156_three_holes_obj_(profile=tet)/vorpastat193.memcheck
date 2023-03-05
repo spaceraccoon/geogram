@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0-608cb11914-20190413 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/bin/vorpastat /home/runner/work/geogram/geogram/tests/data/Small/three_holes.obj out.meshb</line>
+</preamble>
+
+<pid>29987</pid>
+<ppid>12193</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--verbose</arg>
+    <arg>--xml=yes</arg>
+    <arg>--leak-check=full</arg>
+    <arg>--show-reachable=yes</arg>
+    <arg>--error-limit=no</arg>
+    <arg>--xml-file=vorpastat193.memcheck</arg>
+    <arg>--suppressions=/home/runner/work/geogram/geogram/tools/valgrind.supp</arg>
+  </vargv>
+  <argv>
+    <exe>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/bin/vorpastat</exe>
+    <arg>/home/runner/work/geogram/geogram/tests/data/Small/three_holes.obj</arg>
+    <arg>out.meshb</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.030 </time>
+</status>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:01:12.064 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+  <pair>
+    <count>1</count>
+    <name>Vorpaline_gomp_64bits_leak_2</name>
+  </pair>
+</suppcounts>
+
+</valgrindoutput>
+

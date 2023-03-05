@@ -134,8 +134,8 @@
 [ 69%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/bibliography/embedded_references.cpp.o
 [ 70%] Linking CXX shared library ../../../lib/libgeogram.so
 [ 70%] Built target geogram
-[ 71%] Building CXX object src/bin/vorpacomp/CMakeFiles/vorpacomp.dir/main.cpp.o
-[ 72%] Building CXX object src/bin/vorpastat/CMakeFiles/vorpastat.dir/main.cpp.o
+[ 71%] Building CXX object src/bin/vorpastat/CMakeFiles/vorpastat.dir/main.cpp.o
+[ 72%] Building CXX object src/bin/vorpacomp/CMakeFiles/vorpacomp.dir/main.cpp.o
 [ 72%] Linking CXX executable ../../../bin/vorpacomp
 [ 73%] Linking CXX executable ../../../bin/vorpastat
 [ 73%] Built target vorpacomp
@@ -208,7 +208,7 @@
 [ 99%] Linking CXX executable ../../../../bin/manifold_harmonics
 [ 99%] Built target manifold_harmonics
 [ 99%] Building CXX object src/examples/geogram/boolean_operations/CMakeFiles/boolean_op.dir/main.cpp.o
-[100%] Linking CXX executable ../../../../bin/boolean_op
 [100%] Linking CXX executable ../../../../bin/simple_raytrace
+[100%] Linking CXX executable ../../../../bin/boolean_op
 [100%] Built target boolean_op
 [100%] Built target simple_raytrace
