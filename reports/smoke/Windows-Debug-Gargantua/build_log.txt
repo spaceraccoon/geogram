@@ -82,8 +82,6 @@ MSBuild version 17.5.0+6f08c67f3 for .NET Framework
   mesh_surface_intersection.cpp
   mesh_tetrahedralize.cpp
   mesh_topology.cpp
-D:\a\geogram\geogram\src\lib\geogram\mesh\mesh_tetrahedralize.cpp(115,47): warning C4101: 'error_report': unreferenced local variable [D:\a\geogram\geogram\build\Windows\src\lib\geogram\geogram.vcxproj]
-D:\a\geogram\geogram\src\lib\geogram\mesh\mesh_tetrahedralize.cpp(140,55): warning C4101: 'error_report': unreferenced local variable [D:\a\geogram\geogram\build\Windows\src\lib\geogram\geogram.vcxproj]
   triangle_intersection.cpp
   CDT_2d.cpp
   LFS.cpp
