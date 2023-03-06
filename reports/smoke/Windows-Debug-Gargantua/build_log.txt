@@ -79,7 +79,16 @@ MSBuild version 17.5.0+6f08c67f3 for .NET Framework
   mesh_repair.cpp
   mesh_smoothing.cpp
   mesh_subdivision.cpp
+  mesh_surface_intersection.cpp
   mesh_tetrahedralize.cpp
+D:\a\geogram\geogram\src\lib\geogram\mesh\mesh_surface_intersection.cpp(144,1): warning C4245: 'argument': conversion from '`anonymous-namespace'::MeshInTriangle::Vertex::<unnamed-enum-NO_INDEX>' to 'GEO::index_t', signed/unsigned mismatch [D:\a\geogram\geogram\build\Windows\src\lib\geogram\geogram.vcxproj]
+D:\a\geogram\geogram\src\lib\geogram\mesh\mesh_surface_intersection.cpp(177,1): warning C4245: 'argument': conversion from '`anonymous-namespace'::MeshInTriangle::Vertex::<unnamed-enum-NO_INDEX>' to 'GEO::index_t', signed/unsigned mismatch [D:\a\geogram\geogram\build\Windows\src\lib\geogram\geogram.vcxproj]
+D:\a\geogram\geogram\src\lib\geogram\mesh\mesh_surface_intersection.cpp(187,1): warning C4245: 'argument': conversion from '`anonymous-namespace'::MeshInTriangle::Vertex::<unnamed-enum-NO_INDEX>' to 'GEO::index_t', signed/unsigned mismatch [D:\a\geogram\geogram\build\Windows\src\lib\geogram\geogram.vcxproj]
+D:\a\geogram\geogram\src\lib\geogram\mesh\mesh_surface_intersection.cpp(188,1): warning C4245: '=': conversion from '`anonymous-namespace'::MeshInTriangle::Vertex::<unnamed-enum-NO_INDEX>' to 'GEO::index_t', signed/unsigned mismatch [D:\a\geogram\geogram\build\Windows\src\lib\geogram\geogram.vcxproj]
+D:\a\geogram\geogram\src\lib\geogram\mesh\mesh_surface_intersection.cpp(259,1): warning C4245: '=': conversion from '`anonymous-namespace'::MeshInTriangle::Vertex::<unnamed-enum-NO_INDEX>' to 'GEO::index_t', signed/unsigned mismatch [D:\a\geogram\geogram\build\Windows\src\lib\geogram\geogram.vcxproj]
+D:\a\geogram\geogram\src\lib\geogram\mesh\mesh_surface_intersection.cpp(279,1): warning C4245: '=': conversion from '`anonymous-namespace'::MeshInTriangle::Vertex::<unnamed-enum-NO_INDEX>' to 'GEO::index_t', signed/unsigned mismatch [D:\a\geogram\geogram\build\Windows\src\lib\geogram\geogram.vcxproj]
+D:\a\geogram\geogram\src\lib\geogram\mesh\mesh_surface_intersection.cpp(507,22): warning C4127: conditional expression is constant [D:\a\geogram\geogram\build\Windows\src\lib\geogram\geogram.vcxproj]
+D:\a\geogram\geogram\src\lib\geogram\mesh\mesh_surface_intersection.cpp(1351,1): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?) [D:\a\geogram\geogram\build\Windows\src\lib\geogram\geogram.vcxproj]
   mesh_topology.cpp
   triangle_intersection.cpp
   CDT_2d.cpp
