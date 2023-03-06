@@ -75,14 +75,6 @@
 [ 38%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/mesh_smoothing.cpp.o
 [ 39%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/mesh_subdivision.cpp.o
 [ 39%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/mesh_surface_intersection.cpp.o
-/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp: In function ‘void GEO::mesh_intersect_surface(GEO::Mesh&, const GEO::MeshSurfaceIntersectionParams&)’:
-/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:1198:46: warning: conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
- 1198 |                     params.per_component_ids ? (1 << operand_bit[f]) : 1;
-      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
-/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp: In member function ‘bool {anonymous}::BooleanExprParser::parse_variable()’:
-/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:1351:30: warning: conversion to ‘GEO::index_t’ {aka ‘long unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
- 1351 |             return ((x_ & (1 << bit)) != 0);
-      |                           ~~~^~~~~~~
 [ 40%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/mesh_tetrahedralize.cpp.o
 [ 40%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/mesh_topology.cpp.o
 [ 41%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/triangle_intersection.cpp.o
@@ -174,8 +166,8 @@
 [ 81%] Building CXX object src/tests/test_locks/CMakeFiles/test_locks.dir/main.cpp.o
 [ 82%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_fix_rad_search.cpp.o
 [ 82%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_pr_search.cpp.o
-[ 83%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_search.cpp.o
-[ 84%] Linking CXX executable ../../../bin/test_locks
+[ 83%] Linking CXX executable ../../../bin/test_locks
+[ 84%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_search.cpp.o
 [ 84%] Built target test_locks
 [ 85%] Building CXX object src/tests/test_expansion_nt/CMakeFiles/test_expansion_nt.dir/main.cpp.o
 [ 85%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_split.cpp.o
@@ -219,6 +211,6 @@
 [ 99%] Built target manifold_harmonics
 [ 99%] Building CXX object src/examples/geogram/boolean_operations/CMakeFiles/boolean_op.dir/main.cpp.o
 [ 99%] Linking CXX executable ../../../../bin/simple_raytrace
+[ 99%] Built target simple_raytrace
 [100%] Linking CXX executable ../../../../bin/boolean_op
-[100%] Built target simple_raytrace
 [100%] Built target boolean_op
