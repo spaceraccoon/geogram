@@ -102,6 +102,7 @@ MSBuild version 17.5.0+6f08c67f3 for .NET Framework
   quaternion.cpp
   stopwatch.cpp
   string.cpp
+  exact_geometry.cpp
   expansion_nt.cpp
   lbfgs_optimizers.cpp
   matrix_util.cpp
