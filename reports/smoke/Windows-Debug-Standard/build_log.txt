@@ -133,12 +133,10 @@ MSBuild version 17.5.0+6f08c67f3 for .NET Framework
   mesh_subdivision.cpp
   mesh_surface_intersection.cpp
   mesh_tetrahedralize.cpp
-D:\a\geogram\geogram\src\lib\geogram/delaunay/CDT_2d.h(1012,22): warning C4127: conditional expression is constant (compiling source file D:\a\geogram\geogram\src\lib\geogram\mesh\mesh_surface_intersection.cpp) [D:\a\geogram\geogram\build\Windows\src\lib\geogram\geogram.vcxproj]
   mesh_topology.cpp
   triangle_intersection.cpp
   CDT_2d.cpp
   LFS.cpp
-D:\a\geogram\geogram\src\lib\geogram/delaunay/CDT_2d.h(1012,22): warning C4127: conditional expression is constant (compiling source file D:\a\geogram\geogram\src\lib\geogram\delaunay\CDT_2d.cpp) [D:\a\geogram\geogram\build\Windows\src\lib\geogram\geogram.vcxproj]
   delaunay.cpp
   delaunay_2d.cpp
   delaunay_3d.cpp
@@ -962,8 +960,8 @@ D:\a\geogram\geogram\src\lib\geogram/delaunay/CDT_2d.h(1012,22): warning C4127: 
   dlaqrb.c
   dnaitr.c
   dnapps.c
-  dnaupd.c
   dnaup2.c
+  dnaupd.c
   dnaupe.c
   dnconv.c
   dneigh.c
@@ -1057,7 +1055,6 @@ D:\a\geogram\geogram\src\lib\geogram/delaunay/CDT_2d.h(1012,22): warning C4127: 
   simple_raytrace.vcxproj -> D:\a\geogram\geogram\build\Windows\bin\Debug\simple_raytrace.exe
   Building Custom Rule D:/a/geogram/geogram/src/tests/test_CDT_2d/CMakeLists.txt
   main.cpp
-D:\a\geogram\geogram\src\lib\geogram/delaunay/CDT_2d.h(1012,22): warning C4127: conditional expression is constant [D:\a\geogram\geogram\build\Windows\src\tests\test_CDT_2d\test_CDT_2d.vcxproj]
   test_CDT_2d.vcxproj -> D:\a\geogram\geogram\build\Windows\bin\Debug\test_CDT_2d.exe
   Building Custom Rule D:/a/geogram/geogram/src/tests/test_HLBFGS/CMakeLists.txt
   main.cpp
