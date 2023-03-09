@@ -725,8 +725,8 @@ MSBuild version 17.5.0+6f08c67f3 for .NET Framework
   clapack_slange.c
   clapack_slanhs.c
   clapack_slanst.c
-  clapack_slapy2.c
   clapack_slanv2.c
+  clapack_slapy2.c
   clapack_slapy3.c
   clapack_slarf.c
   clapack_slarfg.c
@@ -978,8 +978,8 @@ MSBuild version 17.5.0+6f08c67f3 for .NET Framework
   dsgets.c
   dsortc.c
   dsortr.c
-  dstatn.c
   dstats.c
+  dstatn.c
   dstqrb.c
   sgetv0.c
   slaqrb.c
