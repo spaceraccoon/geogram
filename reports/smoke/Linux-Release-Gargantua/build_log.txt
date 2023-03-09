@@ -156,100 +156,61 @@
 [ 78%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_pr_search.cpp.o
 [ 79%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_search.cpp.o
 [ 79%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_tree.cpp.o
-[ 79%] Linking CXX executable ../../../bin/test_convex_cell
-[ 79%] Built target test_convex_cell
-[ 79%] Building CXX object src/tests/bench_load/CMakeFiles/bench_load.dir/main.cpp.o
 [ 80%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/brute.cpp.o
+[ 80%] Linking CXX executable ../../../bin/test_convex_cell
+[ 80%] Built target test_convex_cell
 [ 80%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_dump.cpp.o
-[ 81%] Linking CXX executable ../../../bin/bench_load
-[ 81%] Built target bench_load
+[ 81%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_fix_rad_search.cpp.o
 [ 81%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_pr_search.cpp.o
-[ 82%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_fix_rad_search.cpp.o
-[ 83%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_search.cpp.o
-[ 83%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_split.cpp.o
-[ 84%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_tree.cpp.o
-[ 84%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_util.cpp.o
-[ 85%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/perf.cpp.o
-[ 85%] Building CXX object src/tests/test_locks/CMakeFiles/test_locks.dir/main.cpp.o
-[ 85%] Linking CXX executable ../../../bin/test_nn_search
-[ 85%] Built target test_nn_search
-[ 86%] Building CXX object src/tests/test_expansion_nt/CMakeFiles/test_expansion_nt.dir/main.cpp.o
-[ 87%] Linking CXX executable ../../../bin/test_locks
+[ 82%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_search.cpp.o
+[ 82%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_split.cpp.o
+[ 83%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_tree.cpp.o
+[ 83%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_util.cpp.o
+[ 84%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/perf.cpp.o
+[ 84%] Linking CXX executable ../../../bin/test_nn_search
+[ 84%] Building CXX object src/tests/bench_load/CMakeFiles/bench_load.dir/main.cpp.o
+[ 84%] Built target test_nn_search
+[ 84%] Building CXX object src/tests/test_locks/CMakeFiles/test_locks.dir/main.cpp.o
+[ 85%] Linking CXX executable ../../../bin/bench_load
+[ 86%] Linking CXX executable ../../../bin/test_locks
+[ 86%] Built target bench_load
+[ 87%] Building CXX object src/tests/test_expansion_nt/CMakeFiles/test_expansion_nt.dir/main.cpp.o
 [ 87%] Built target test_locks
 [ 88%] Building CXX object src/tests/test_HLBFGS/CMakeFiles/test_HLBFGS.dir/main.cpp.o
-[ 89%] Linking CXX executable ../../../bin/test_expansion_nt
-[ 89%] Linking CXX executable ../../../bin/test_HLBFGS
-[ 89%] Built target test_expansion_nt
-[ 90%] Building CXX object src/tests/test_RVC/CMakeFiles/test_RVC.dir/main.cpp.o
-[ 90%] Built target test_HLBFGS
+[ 88%] Linking CXX executable ../../../bin/test_HLBFGS
+[ 88%] Built target test_HLBFGS
+[ 89%] Building CXX object src/tests/test_RVC/CMakeFiles/test_RVC.dir/main.cpp.o
+[ 90%] Linking CXX executable ../../../bin/test_expansion_nt
+[ 90%] Built target test_expansion_nt
 [ 90%] Building CXX object src/tests/test_logger/CMakeFiles/test_logger.dir/main.cpp.o
 [ 91%] Linking CXX executable ../../../bin/test_logger
 [ 91%] Built target test_logger
 [ 92%] Building CXX object src/tests/test_CDT_2d/CMakeFiles/test_CDT_2d.dir/main.cpp.o
-/home/runner/work/geogram/geogram/src/tests/test_CDT_2d/main.cpp: In function ‘int main(int, char**)’:
-/home/runner/work/geogram/geogram/src/tests/test_CDT_2d/main.cpp:97:5: error: ‘vector’ was not declared in this scope
-   97 |     vector<index_t> indices(mesh_grob()->vertices.nb()-n);
-      |     ^~~~~~
-/home/runner/work/geogram/geogram/src/tests/test_CDT_2d/main.cpp:97:5: note: suggested alternatives:
-In file included from /usr/include/c++/9/vector:67,
-                 from /home/runner/work/geogram/geogram/src/lib/geogram/basic/memory.h:48,
-                 from /home/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:45,
-                 from /home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45,
-                 from /home/runner/work/geogram/geogram/src/tests/test_CDT_2d/main.cpp:40:
-/usr/include/c++/9/bits/stl_vector.h:386:11: note:   ‘std::vector’
-  386 |     class vector : protected _Vector_base<_Tp, _Alloc>
-      |           ^~~~~~
-In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:45,
-                 from /home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45,
-                 from /home/runner/work/geogram/geogram/src/tests/test_CDT_2d/main.cpp:40:
-/home/runner/work/geogram/geogram/src/lib/geogram/basic/memory.h:623:11: note:   ‘GEO::vector’
-  623 |     class vector : public ::std::vector<T, Memory::aligned_allocator<T> > {
-      |           ^~~~~~
-/home/runner/work/geogram/geogram/src/tests/test_CDT_2d/main.cpp:97:12: error: ‘index_t’ was not declared in this scope; did you mean ‘GEO::index_t’?
-   97 |     vector<index_t> indices(mesh_grob()->vertices.nb()-n);
-      |            ^~~~~~~
-      |            GEO::index_t
-In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/range.h:43,
-                 from /home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:44,
-                 from /home/runner/work/geogram/geogram/src/tests/test_CDT_2d/main.cpp:40:
-/home/runner/work/geogram/geogram/src/lib/geogram/basic/numeric.h:287:25: note: ‘GEO::index_t’ declared here
-  287 |     typedef geo_index_t index_t;
-      |                         ^~~~~~~
-/home/runner/work/geogram/geogram/src/tests/test_CDT_2d/main.cpp:97:29: error: ‘mesh_grob’ was not declared in this scope
-   97 |     vector<index_t> indices(mesh_grob()->vertices.nb()-n);
-      |                             ^~~~~~~~~
-/home/runner/work/geogram/geogram/src/tests/test_CDT_2d/main.cpp:97:21: error: ‘indices’ was not declared in this scope; did you mean ‘nice’?
-   97 |     vector<index_t> indices(mesh_grob()->vertices.nb()-n);
-      |                     ^~~~~~~
-      |                     nice
-/home/runner/work/geogram/geogram/src/tests/test_CDT_2d/main.cpp:105:20: error: expected ‘;’ before ‘v1’
-  105 |             index_t v1=mesh_grob()->edges.vertex(e,0);
-      |                    ^~~
-      |                    ;
-/home/runner/work/geogram/geogram/src/tests/test_CDT_2d/main.cpp:106:20: error: expected ‘;’ before ‘v2’
-  106 |             index_t v2=mesh_grob()->edges.vertex(e,1);
-      |                    ^~~
-      |                    ;
-/home/runner/work/geogram/geogram/src/tests/test_CDT_2d/main.cpp:107:16: error: ‘v1’ was not declared in this scope; did you mean ‘y1’?
-  107 |             if(v1 >= n) {
-      |                ^~
-      |                y1
-/home/runner/work/geogram/geogram/src/tests/test_CDT_2d/main.cpp:110:16: error: ‘v2’ was not declared in this scope
-  110 |             if(v2 >= n) {
-      |                ^~
-/home/runner/work/geogram/geogram/src/tests/test_CDT_2d/main.cpp:113:35: error: ‘v1’ was not declared in this scope; did you mean ‘y1’?
-  113 |             cdt.insert_constraint(v1,v2);
-      |                                   ^~
-      |                                   y1
-/home/runner/work/geogram/geogram/src/tests/test_CDT_2d/main.cpp:113:38: error: ‘v2’ was not declared in this scope
-  113 |             cdt.insert_constraint(v1,v2);
-      |                                      ^~
-/home/runner/work/geogram/geogram/src/tests/test_CDT_2d/main.cpp:104:26: warning: unused variable ‘e’ [-Wunused-variable]
-  104 |         for(GEO::index_t e: constraints.edges) {
-      |                          ^
-make[2]: *** [src/tests/test_CDT_2d/CMakeFiles/test_CDT_2d.dir/build.make:76: src/tests/test_CDT_2d/CMakeFiles/test_CDT_2d.dir/main.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:998: src/tests/test_CDT_2d/CMakeFiles/test_CDT_2d.dir/all] Error 2
-make[1]: *** Waiting for unfinished jobs....
 [ 92%] Linking CXX executable ../../../bin/test_RVC
 [ 92%] Built target test_RVC
-make: *** [Makefile:156: all] Error 2
+[ 92%] Building CXX object src/examples/geogram/compute_delaunay/CMakeFiles/compute_delaunay.dir/main.cpp.o
+[ 92%] Linking CXX executable ../../../bin/test_CDT_2d
+[ 92%] Built target test_CDT_2d
+[ 92%] Building CXX object src/examples/geogram/compute_RVD/CMakeFiles/compute_RVD.dir/main.cpp.o
+[ 93%] Linking CXX executable ../../../../bin/compute_delaunay
+[ 93%] Built target compute_delaunay
+[ 94%] Building CXX object src/examples/geogram/opennl_LSCM/CMakeFiles/opennl_LSCM.dir/main.cpp.o
+[ 94%] Linking CXX executable ../../../../bin/opennl_LSCM
+[ 94%] Built target opennl_LSCM
+[ 95%] Building CXX object src/examples/geogram/opennl_mesh_smooth/CMakeFiles/opennl_mesh_smooth.dir/main.cpp.o
+[ 96%] Linking CXX executable ../../../../bin/compute_RVD
+[ 96%] Built target compute_RVD
+[ 97%] Building CXX object src/examples/geogram/manifold_harmonics/CMakeFiles/manifold_harmonics.dir/main.cpp.o
+[ 97%] Linking CXX executable ../../../../bin/opennl_mesh_smooth
+[ 97%] Built target opennl_mesh_smooth
+[ 98%] Building C object src/examples/geogram/opennl_basic_example/CMakeFiles/opennl_basic_example.dir/main.c.o
+[ 98%] Linking C executable ../../../../bin/opennl_basic_example
+[ 98%] Built target opennl_basic_example
+[ 99%] Building CXX object src/examples/geogram/simple_raytrace/CMakeFiles/simple_raytrace.dir/main.cpp.o
+[ 99%] Linking CXX executable ../../../../bin/manifold_harmonics
+[ 99%] Built target manifold_harmonics
+[ 99%] Building CXX object src/examples/geogram/boolean_operations/CMakeFiles/boolean_op.dir/main.cpp.o
+[100%] Linking CXX executable ../../../../bin/boolean_op
+[100%] Built target boolean_op
+[100%] Linking CXX executable ../../../../bin/simple_raytrace
+[100%] Built target simple_raytrace
