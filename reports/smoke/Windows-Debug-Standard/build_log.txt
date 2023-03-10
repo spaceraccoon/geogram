@@ -509,8 +509,8 @@ MSBuild version 17.5.0+6f08c67f3 for .NET Framework
   csrot.c
   csscal.c
   cswap.c
-  csyr2k.c
   csymm.c
+  csyr2k.c
   csyrk.c
   ctbmv.c
   ctbsv.c
