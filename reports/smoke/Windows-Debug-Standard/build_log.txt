@@ -485,8 +485,8 @@ MSBuild version 17.5.0+6f08c67f3 for .NET Framework
   libf2c_z_log.c
   libf2c_z_sin.c
   libf2c_z_sqrt.c
-  ccopy.c
   caxpy.c
+  ccopy.c
   cdotc.c
   cdotu.c
   cgbmv.c
@@ -509,8 +509,8 @@ MSBuild version 17.5.0+6f08c67f3 for .NET Framework
   csrot.c
   csscal.c
   cswap.c
-  csymm.c
   csyr2k.c
+  csymm.c
   csyrk.c
   ctbmv.c
   ctbsv.c
