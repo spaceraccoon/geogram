@@ -12,8 +12,8 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/bin/compute_RVD algo:predicates=exact algo:nn_search=BNN /home/runner/work/geogram/geogram/tests/data/RVD/tordu.meshb</line>
 </preamble>
 
-<pid>21334</pid>
-<ppid>6657</ppid>
+<pid>21433</pid>
+<ppid>6707</ppid>
 <tool>memcheck</tool>
 
 <args>
@@ -37,13 +37,13 @@
 
 <status>
   <state>RUNNING</state>
-  <time>00:00:00:00.030 </time>
+  <time>00:00:00:00.034 </time>
 </status>
 
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:00:22.085 </time>
+  <time>00:00:00:24.100 </time>
 </status>
 
 <errorcounts>
