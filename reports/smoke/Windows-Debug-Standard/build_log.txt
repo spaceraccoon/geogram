@@ -712,8 +712,8 @@ D:\a\geogram\geogram\src\lib\geogram/third_party/stb_image/stb_image.h(3425,49):
   clapack_ilazlc.c
   clapack_ilazlr.c
   clapack_izmax1.c
-  clapack_sgeqr2.c
   clapack_scsum1.c
+  clapack_sgeqr2.c
   clapack_sisnan.c
   clapack_slabad.c
   clapack_slacn2.c
