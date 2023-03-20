@@ -76,42 +76,42 @@
 [ 38%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/mesh_subdivision.cpp.o
 [ 39%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/mesh_surface_intersection.cpp.o
 /home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp: In member function ‘bool GEO::MeshSurfaceIntersection::check_radial_order(std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> >::iterator, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> >::iterator)’:
-/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:552:39: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
-  552 |             Sign Sij = radial_order(b[i],b[j]);
+/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:565:39: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
+  565 |             Sign Sij = radial_order(b+i,b+j);
       |                                       ^
-/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:552:44: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
-  552 |             Sign Sij = radial_order(b[i],b[j]);
-      |                                            ^
-/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:558:39: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
-  558 |                     if(radial_order(b[i],b[k]) < 0) {
-      |                                       ^
-/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:558:44: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
-  558 |                     if(radial_order(b[i],b[k]) < 0) {
-      |                                            ^
-/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:561:39: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
-  561 |                     if(radial_order(b[k],b[j]) < 0) {
-      |                                       ^
-/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:561:44: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
-  561 |                     if(radial_order(b[k],b[j]) < 0) {
-      |                                            ^
-/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:571:40: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
-  571 |                         radial_order(b[i],b[k]) < 0 &&
-      |                                        ^
-/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:571:45: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
-  571 |                         radial_order(b[i],b[k]) < 0 &&
-      |                                             ^
-/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:572:40: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
-  572 |                         radial_order(b[k],b[j]) < 0
-      |                                        ^
-/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:572:45: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
-  572 |                         radial_order(b[k],b[j]) < 0
-      |                                             ^
-/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp: In member function ‘void GEO::MeshSurfaceIntersection::build_Weiler_model()’:
-/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:688:43: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
-  688 |                 if(!radial_sort(H.begin()+b, H.begin()+e)) {
+/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:565:43: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
+  565 |             Sign Sij = radial_order(b+i,b+j);
       |                                           ^
-/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:688:56: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
-  688 |                 if(!radial_sort(H.begin()+b, H.begin()+e)) {
+/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:571:39: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
+  571 |                     if(radial_order(b+i,b+k) < 0) {
+      |                                       ^
+/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:571:43: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
+  571 |                     if(radial_order(b+i,b+k) < 0) {
+      |                                           ^
+/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:574:39: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
+  574 |                     if(radial_order(b+k,b+j) < 0) {
+      |                                       ^
+/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:574:43: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
+  574 |                     if(radial_order(b+k,b+j) < 0) {
+      |                                           ^
+/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:584:40: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
+  584 |                         radial_order(b+i,b+k) < 0 &&
+      |                                        ^
+/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:584:44: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
+  584 |                         radial_order(b+i,b+k) < 0 &&
+      |                                            ^
+/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:585:40: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
+  585 |                         radial_order(b+k,b+j) < 0
+      |                                        ^
+/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:585:44: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
+  585 |                         radial_order(b+k,b+j) < 0
+      |                                            ^
+/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp: In member function ‘void GEO::MeshSurfaceIntersection::build_Weiler_model()’:
+/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:718:43: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
+  718 |                 if(!radial_sort(H.begin()+b, H.begin()+e)) {
+      |                                           ^
+/home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_surface_intersection.cpp:718:56: warning: conversion to ‘__gnu_cxx::__normal_iterator<long unsigned int*, std::vector<long unsigned int, GEO::Memory::aligned_allocator<long unsigned int, 64> > >::difference_type’ {aka ‘long int’} from ‘GEO::index_t’ {aka ‘long unsigned int’} may change the sign of the result [-Wsign-conversion]
+  718 |                 if(!radial_sort(H.begin()+b, H.begin()+e)) {
       |                                                        ^
 [ 40%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/mesh_surface_intersection_internal.cpp.o
 [ 40%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/mesh_tetrahedralize.cpp.o
@@ -178,8 +178,8 @@
 [ 71%] Building CXX object src/bin/vorpastat/CMakeFiles/vorpastat.dir/main.cpp.o
 [ 72%] Building CXX object src/bin/vorpacomp/CMakeFiles/vorpacomp.dir/main.cpp.o
 [ 72%] Linking CXX executable ../../../bin/vorpacomp
+[ 72%] Built target vorpacomp
 [ 73%] Linking CXX executable ../../../bin/vorpastat
-[ 73%] Built target vorpacomp
 [ 73%] Building CXX object src/bin/geodump/CMakeFiles/geodump.dir/main.cpp.o
 [ 73%] Built target vorpastat
 [ 74%] Building CXX object src/bin/vorpalite/CMakeFiles/vorpalite.dir/main.cpp.o
@@ -195,8 +195,8 @@
 [ 77%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_pr_search.cpp.o
 [ 78%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_search.cpp.o
 [ 78%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_tree.cpp.o
-[ 79%] Linking CXX executable ../../../bin/test_convex_cell
-[ 80%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/brute.cpp.o
+[ 79%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/brute.cpp.o
+[ 80%] Linking CXX executable ../../../bin/test_convex_cell
 [ 80%] Built target test_convex_cell
 [ 80%] Building CXX object src/tests/bench_load/CMakeFiles/bench_load.dir/main.cpp.o
 [ 80%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_dump.cpp.o
@@ -250,6 +250,6 @@
 [ 99%] Built target manifold_harmonics
 [ 99%] Building CXX object src/examples/geogram/boolean_operations/CMakeFiles/boolean_op.dir/main.cpp.o
 [100%] Linking CXX executable ../../../../bin/boolean_op
-[100%] Linking CXX executable ../../../../bin/simple_raytrace
 [100%] Built target boolean_op
+[100%] Linking CXX executable ../../../../bin/simple_raytrace
 [100%] Built target simple_raytrace
