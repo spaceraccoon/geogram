@@ -169,6 +169,9 @@ MSBuild version 17.5.0+6f08c67f3 for .NET Framework
   image_serializer_pgm.cpp
   image_serializer_stb.cpp
   image_serializer_xpm.cpp
+D:\a\geogram\geogram\src\lib\geogram/third_party/stb_image/stb_image.h(2224,32): warning C4244: 'argument': conversion from 'int' to 'short', possible loss of data (compiling source file D:\a\geogram\geogram\src\lib\geogram\image\image_serializer_stb.cpp) [D:\a\geogram\geogram\build\Windows\src\lib\geogram\geogram.vcxproj]
+D:\a\geogram\geogram\src\lib\geogram/third_party/stb_image/stb_image.h(2281,35): warning C4244: 'argument': conversion from 'int' to 'short', possible loss of data (compiling source file D:\a\geogram\geogram\src\lib\geogram\image\image_serializer_stb.cpp) [D:\a\geogram\geogram\build\Windows\src\lib\geogram\geogram.vcxproj]
+D:\a\geogram\geogram\src\lib\geogram/third_party/stb_image/stb_image.h(3425,49): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data (compiling source file D:\a\geogram\geogram\src\lib\geogram\image\image_serializer_stb.cpp) [D:\a\geogram\geogram\build\Windows\src\lib\geogram\geogram.vcxproj]
   morpho_math.cpp
   mesh_ABF.cpp
   mesh_LSCM.cpp
