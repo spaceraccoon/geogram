@@ -3,8 +3,8 @@ MSBuild version 17.5.0+6f08c67f3 for .NET Framework
   Checking Build System
   Building Custom Rule D:/a/geogram/geogram/src/lib/geogram_gfx/third_party/CMakeLists.txt
   glad.c
-  imgui_lua_bindings.cpp
   TextEditor.cpp
+  imgui_lua_bindings.cpp
   imgui.cpp
   imgui_demo.cpp
   imgui_draw.cpp
