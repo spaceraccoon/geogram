@@ -12,8 +12,8 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/bin/hexdom_pipeline hexdom:tets=/home/runner/work/geogram/geogram/tests/data/Tets/joint_with_tets.meshb hexdom:stage=all</line>
 </preamble>
 
-<pid>15671</pid>
-<ppid>12354</ppid>
+<pid>15861</pid>
+<ppid>12547</ppid>
 <tool>memcheck</tool>
 
 <args>
@@ -42,7 +42,7 @@
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:04:30.234 </time>
+  <time>00:00:04:30.335 </time>
 </status>
 
 <errorcounts>
@@ -62,7 +62,7 @@
     <name>Vorpaline_gomp_64bits_leak_1</name>
   </pair>
   <pair>
-    <count>34323</count>
+    <count>34300</count>
     <name>ZLIB uninitialized memory read</name>
   </pair>
 </suppcounts>

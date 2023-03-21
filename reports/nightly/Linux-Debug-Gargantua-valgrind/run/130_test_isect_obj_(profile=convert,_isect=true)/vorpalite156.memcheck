@@ -12,8 +12,8 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/bin/vorpalite pts=5000 profile=convert post=true post:isect=true /home/runner/work/geogram/geogram/tests/data/Small/test_isect.obj out.meshb</line>
 </preamble>
 
-<pid>21228</pid>
-<ppid>6631</ppid>
+<pid>20751</pid>
+<ppid>6688</ppid>
 <tool>memcheck</tool>
 
 <args>
@@ -40,13 +40,13 @@
 
 <status>
   <state>RUNNING</state>
-  <time>00:00:00:00.038 </time>
+  <time>00:00:00:00.033 </time>
 </status>
 
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:01:22.201 </time>
+  <time>00:00:01:11.703 </time>
 </status>
 
 <errorcounts>
