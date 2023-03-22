@@ -120,7 +120,6 @@ MSBuild version 17.5.0+6f08c67f3 for .NET Framework
   mesh_frame_field.cpp
   mesh_geometry.cpp
   mesh_halfedges.cpp
-  mesh_intersection.cpp
   mesh_io.cpp
   mesh_local_operations.cpp
   mesh_manifold_harmonics.cpp
