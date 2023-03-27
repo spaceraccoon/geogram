@@ -12,8 +12,8 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/bin/vorpalite pts=5000 /home/runner/work/geogram/geogram/tests/data/Small/S2.obj out.meshb</line>
 </preamble>
 
-<pid>11929</pid>
-<ppid>6662</ppid>
+<pid>12080</pid>
+<ppid>6606</ppid>
 <tool>memcheck</tool>
 
 <args>
@@ -37,13 +37,13 @@
 
 <status>
   <state>RUNNING</state>
-  <time>00:00:00:00.030 </time>
+  <time>00:00:00:00.032 </time>
 </status>
 
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:00:45.311 </time>
+  <time>00:00:00:50.534 </time>
 </status>
 
 <errorcounts>
