@@ -704,8 +704,8 @@ MSBuild version 17.5.0+6f08c67f3 for .NET Framework
   clapack_iladlc.c
   clapack_iladlr.c
   clapack_ilaslc.c
-  clapack_ilaslr.c
   clapack_ilazlc.c
+  clapack_ilaslr.c
   clapack_ilazlr.c
   clapack_izmax1.c
   clapack_scsum1.c
