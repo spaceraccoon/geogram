@@ -12,8 +12,8 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/bin/vorpalite icosa.obj icosa.obj icosa.obj out.meshb</line>
 </preamble>
 
-<pid>8888</pid>
-<ppid>6700</ppid>
+<pid>8830</pid>
+<ppid>6845</ppid>
 <tool>memcheck</tool>
 
 <args>
@@ -38,13 +38,13 @@
 
 <status>
   <state>RUNNING</state>
-  <time>00:00:00:00.038 </time>
+  <time>00:00:00:00.031 </time>
 </status>
 
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:00:01.920 </time>
+  <time>00:00:00:01.682 </time>
 </status>
 
 <errorcounts>
