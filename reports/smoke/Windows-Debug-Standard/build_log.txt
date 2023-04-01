@@ -104,7 +104,6 @@ MSBuild version 17.5.1+f6fdcf537 for .NET Framework
   string.cpp
   exact_geometry.cpp
   expansion_nt.cpp
-  interval_nt.cpp
   lbfgs_optimizers.cpp
   matrix_util.cpp
   multi_precision.cpp
