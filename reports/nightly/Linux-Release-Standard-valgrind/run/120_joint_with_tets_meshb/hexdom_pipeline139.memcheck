@@ -12,8 +12,8 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/bin/hexdom_pipeline hexdom:tets=/home/runner/work/geogram/geogram/tests/data/Tets/joint_with_tets.meshb hexdom:stage=all</line>
 </preamble>
 
-<pid>15706</pid>
-<ppid>12499</ppid>
+<pid>15698</pid>
+<ppid>12475</ppid>
 <tool>memcheck</tool>
 
 <args>
@@ -36,13 +36,13 @@
 
 <status>
   <state>RUNNING</state>
-  <time>00:00:00:00.032 </time>
+  <time>00:00:00:00.034 </time>
 </status>
 
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:04:29.958 </time>
+  <time>00:00:05:15.756 </time>
 </status>
 
 <errorcounts>
