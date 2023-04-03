@@ -80,6 +80,7 @@ MSBuild version 17.5.1+f6fdcf537 for .NET Framework
   mesh_subdivision.cpp
   mesh_surface_intersection.cpp
   mesh_surface_intersection_internal.cpp
+D:\a\geogram\geogram\src\lib\geogram\mesh\mesh_surface_intersection.cpp(895,26): warning C4127: conditional expression is constant [D:\a\geogram\geogram\build\Windows\src\lib\geogram\geogram.vcxproj]
   mesh_tetrahedralize.cpp
   mesh_topology.cpp
   triangle_intersection.cpp
