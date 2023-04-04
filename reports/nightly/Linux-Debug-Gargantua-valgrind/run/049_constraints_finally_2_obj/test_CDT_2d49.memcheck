@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0-608cb11914-20190413 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/bin/test_CDT_2d delaunay=false remove_external_triangles=true /home/runner/work/geogram/geogram/tests/data/CDT2d/constraints_finally_2.obj</line>
+</preamble>
+
+<pid>7221</pid>
+<ppid>6874</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--verbose</arg>
+    <arg>--xml=yes</arg>
+    <arg>--leak-check=full</arg>
+    <arg>--show-reachable=yes</arg>
+    <arg>--error-limit=no</arg>
+    <arg>--xml-file=test_CDT_2d49.memcheck</arg>
+    <arg>--suppressions=/home/runner/work/geogram/geogram/tools/valgrind.supp</arg>
+  </vargv>
+  <argv>
+    <exe>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/bin/test_CDT_2d</exe>
+    <arg>delaunay=false</arg>
+    <arg>remove_external_triangles=true</arg>
+    <arg>/home/runner/work/geogram/geogram/tests/data/CDT2d/constraints_finally_2.obj</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.032 </time>
+</status>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:02.936 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+  <pair>
+    <count>1</count>
+    <name>Vorpaline_gomp_64bits_leak_2</name>
+  </pair>
+</suppcounts>
+
+</valgrindoutput>
+
