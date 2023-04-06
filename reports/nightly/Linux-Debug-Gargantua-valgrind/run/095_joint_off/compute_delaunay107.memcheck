@@ -12,8 +12,8 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/bin/compute_delaunay /home/runner/work/geogram/geogram/tests/data/Small/joint.off algo:delaunay=BDEL</line>
 </preamble>
 
-<pid>11082</pid>
-<ppid>6627</ppid>
+<pid>11038</pid>
+<ppid>6606</ppid>
 <tool>memcheck</tool>
 
 <args>
@@ -36,13 +36,13 @@
 
 <status>
   <state>RUNNING</state>
-  <time>00:00:00:00.032 </time>
+  <time>00:00:00:00.033 </time>
 </status>
 
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:00:03.360 </time>
+  <time>00:00:00:03.553 </time>
 </status>
 
 <errorcounts>
