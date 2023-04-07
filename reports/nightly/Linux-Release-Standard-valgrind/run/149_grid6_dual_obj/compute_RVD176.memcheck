@@ -12,8 +12,8 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/bin/compute_RVD algo:predicates=exact algo:nn_search=BNN /home/runner/work/geogram/geogram/tests/data/RVD/grid6.obj /home/runner/work/geogram/geogram/tests/data/RVD/grid6_dual.obj</line>
 </preamble>
 
-<pid>20824</pid>
-<ppid>12520</ppid>
+<pid>20809</pid>
+<ppid>12280</ppid>
 <tool>memcheck</tool>
 
 <args>
@@ -38,13 +38,13 @@
 
 <status>
   <state>RUNNING</state>
-  <time>00:00:00:00.034 </time>
+  <time>00:00:00:00.037 </time>
 </status>
 
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:00:21.502 </time>
+  <time>00:00:00:23.996 </time>
 </status>
 
 <errorcounts>
